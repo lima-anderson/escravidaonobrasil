@@ -14,6 +14,6 @@ https://andersonli34.github.io/escravidaonobrasil/
 
 Funcionalidades
 
-proposta de site com apenas HTML5 e CSS3
-Menu retrátil para dispositivos como celulares
+proposta de site com apenas HTML5 e CSS3, 
+Menu retrátil para dispositivos como celulares, 
 Slider	
