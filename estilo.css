@@ -1,0 +1,397 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/*TODO O HEADER*/
+
+#cabeca {   
+    width: 98vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    align-items: center;
+}
+
+.logo img {
+    margin: 0 1rem;
+    max-width: 45vw;
+    max-height: 15vw;
+}
+
+#botaoexp {
+    margin-right: 2rem;
+}
+
+.expandivel {
+    left: -100vw;
+}
+
+#expandido, .expandivel {
+    display: none;
+}
+
+#expandido:checked ~ .expandivel {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15vh;
+    left: 0vw;
+    height: 30vh;
+    width: 100vw;
+    z-index: 1;
+    
+}
+
+nav {
+    margin: 0;
+}
+
+nav ul {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9F9;
+}
+
+nav ul li {
+    margin: 0;
+    list-style:none;
+    text-align: center;
+    border: solid 1px rgb(234, 234, 234);
+    background-color: #F9F9F9;
+    padding: 1rem;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+nav ul li:hover {
+    background-color:#C0C0C0;
+}
+
+@media screen and (min-width: 600px){
+    #cabeca {   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 3vw;
+        padding-bottom: 20px;
+        margin: 0;
+        width: 100vw;  
+    }
+
+    .logo img {
+        display: none;    
+    }
+    
+    .logo {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .expandivel {
+        display: flex;
+    }
+    
+    #expandido, #botaoexp {
+        display: none;
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 1rem 1rem 0 1rem;
+        list-style:none;
+        text-align: center;
+        border: none;
+        background-color: white;
+        width: 100%;
+    }
+
+    nav ul li a:hover {
+        color: blue;
+        
+    }
+    nav ul li:hover {
+        background-color: #fff;
+        
+    }
+}
+
+@media screen and (min-width: 900px){
+    #cabeca {   
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 0;
+        height: 10vw;
+        box-sizing: border-box;
+    }
+
+    .logo img {
+        display: block;    
+    }
+} 
+
+
+/*TODO SLIDER*/
+
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+	position: relative;
+	width: 500%;
+    height: 300%;
+    margin: 0;
+	left: 0;
+    animation: 20s slider infinite; 
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+    }
+    50% {
+		left: -200%;
+	}
+    75% {
+		left: -300%;
+    }
+    100% {
+		left: -400;
+    }
+}   
+
+
+/* TODO O CONTENT*/
+
+#content-1, #content-2, #content-3 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#content-1 header, #content-2 header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#content-1 hr, #content-2 hr {
+    width: 30vw;
+    height: 2px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.corpo-2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: left;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+    .corpo-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1%;
+        }
+
+    .parte2 {
+        padding: 5px;
+    }
+}
+
+.corpo-2 a {
+    border: 1px solid black;
+    padding:13px 25px;
+    height: 15px;
+    width: 103px;
+    margin: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corpo-2 a:hover {
+    background-color:  #333;
+    color: white;
+}
+
+@media screen and (min-width: 900px){
+    .corpo-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 1%;
+    }
+}
+
+/*TODO O FOOTER*/
+
+footer {
+    background-color: #363636;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer div {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 600px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+}
+
+/* TODO FORMULARIO */
+
+
+#corpof {
+    background-color: #F5F5F5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box
+} 
+
+.formulario{
+    background-color:#fff;
+    color:black;
+    padding: 2%;
+}
+
+.formulario h1 {
+    text-align: left;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    font-weight: normal;
+}
+
+.formulario input {
+    height: 30px;
+}
+
+#nome, #email, #phone, #endereco, #msg {
+    width: 72vw;
+}
+
+.formulario p {
+    line-height: .5px;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 600px){
+    .formulario{
+        margin: 70px 70px;
+        box-sizing: border-box;
+    }
+
+    .formu {
+        margin-bottom: 30px;
+        padding-left: 50px;
+    }    
+
+    #nome, #email, #phone, #endereco, #msg {
+        width: 42vw;
+    }    
+}
+
+label {
+    font-weight: bold;
+}
+
+.formulario span {
+    color: red;
+}
+
+#content-3 .recuo {
+    text-indent:4em;
+}
+
+/* TODA A GALERIA */
+
+#galeria .foto img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+#galeria {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 600px) {
+    #galeria {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #galeria {
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,96 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fale conosco</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courier+Prime&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+     <!--TODO HEADER  -->
+     <header id="cabeca">
+        <div class="logo">
+            <img src="img/logo.png" alt="Museu da Escravidão">
+            <a class="logo" href="index.html">Museu Virtual da Escravidão no Brasil</a>
+        </div>
+
+        <nav>
+            <input type="checkbox" id="expandido" />
+
+            <label for="expandido" id="botaoexp"><i class="material-icons">menu</i></label>
+
+            <ul class="expandivel">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projeto.html">Projeto</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html" style="color:blue">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- TODO FORMULÁRIO -->
+
+    <section id="corpof">
+        <div class="formulario">
+            <div id="formulario">
+                <h1>Fale Conosco</h1>
+                    <form action="" method="post">
+                        <div class="formu nome">
+                            <label for="nome">Nome</label> <span>*</span><br>
+                            <input type="text" id="nome" placeholder="Digite aqui seu nome" required>
+                            <p>Informe seu nome completo (obrigatório) *</p>
+                        </div>
+                        
+                        <div class="formu email">
+
+                            <div>
+                                <label for="email">E-mail</label> <span>*</span><br>
+                                <input type="text" id="email" placeholder="Digite aqui seu e-mail" required>
+                                <p>Informe um e-mail válido (obrigatório) *</p></div>
+                            
+                            <div>
+                                <label for="email"></label><br>
+                                <input type="text" id="email" placeholder="Digite seu e-mail novamente" required>
+                                <p>Confirmar e-mail</p> 
+                            </div>
+
+                        </div>
+                        
+                        <div class="formu telefone">
+                            <label for="phone">Telefone</label> <span>*</span><br>
+                            <input type="tel" id="phone" required>  
+                            <p>Informe um telefone válido (obrigatório) *</p>
+                        </div>
+
+                        <div class="formu endereco">
+                            <label for="endereco">Endereço</label><br>
+                            <input type="text" id="endereco"  placeholder="Rua, bairro, cidade, etc">
+                        </div>
+
+                        <div class="formu mensagem">
+                            <label for="msg">Mensagem:</label> <span>*</span><br>
+                            <textarea name="message" id="msg" rows="10" required  placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+                                            
+                        <input type="submit" name="submit" value="Enviar mensagem" class="botao">
+                    </form>
+            </div>
+        </div>
+    </section i>
+   
+    <footer>
+        <div>Copyright © 2019 Museu Virtual da Escravidão no Brasil | Criado por Anderson Lima</div>
+        <div>Libertei mil escravos que poderiam ter libertado mais mil se eles soubessem que eram escravos.
+        (Harriet Tubman)</div>
+    </footer>
+
+</body>
+</html>
