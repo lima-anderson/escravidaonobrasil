@@ -22,7 +22,7 @@ A proposta foi construir o germe de um site que seria um museu virtual, visto qu
 
 
 * Menu retrátil para dispositivos como celulares;
-* Slider
-* Responsividade
-* Mobile First
+* Slider;
+* Responsividade;
+* Mobile First;
 * Recursos de serviços disponíveis na Web.
