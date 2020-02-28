@@ -21,7 +21,8 @@ A proposta foi construir o germe de um site que seria um museu virtual, visto qu
 ## Funcionalidades:
 
 
-Menu retrátil para dispositivos como celulares;
-Slider
-Responsividade
-Mobile First
+* Menu retrátil para dispositivos como celulares;
+* Slider
+* Responsividade
+* Mobile First
+* Recursos de serviços disponíveis na Web.
