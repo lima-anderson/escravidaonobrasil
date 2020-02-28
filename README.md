@@ -1,5 +1,5 @@
 ## Museu Virtual da Escravidão no Brasil
-___
+_
 
 Projeto da disciplina Linguagens de Marcação do 1º Período.
 
@@ -7,19 +7,19 @@ A proposta foi construir o germe de um site que seria um museu virtual, visto qu
 
 
 ## Disponível em:
-___
+_
 
-[Museu Virtual da Escravidão no Brasil]: https://andersonli34.github.io/escravidaonobrasil/
+[Museu Virtual da Escravidão no Brasil]: (https://andersonli34.github.io/escravidaonobrasil/)
 
 
 ## Linguagens e Tecnologias:
-___
+_
 
 * HTML5
 * CSS3
 
 ## Funcionalidades:
-___
+_
 
 Menu retrátil para dispositivos como celulares;
 Slider
