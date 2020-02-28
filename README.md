@@ -8,13 +8,7 @@ A proposta foi construir o germe de um site que seria um museu virtual, visto qu
 
 ## Disponível em:
 
-
-[Museu Virtual da Escravidão no Brasil](https://andersonli34.github.io/escravidaonobrasil/)
-
-
-
-
-![alt text](https://raw.githubusercontent.com/andersonli34/escravidaonobrasil/master/img/logo.png "Logo Title Text 1")
+[![alt text](https://raw.githubusercontent.com/andersonli34/escravidaonobrasil/master/img/logo.png "Logo Title Text 1")](https://andersonli34.github.io/escravidaonobrasil/)
 
 
 ## Linguagens e Tecnologias:
