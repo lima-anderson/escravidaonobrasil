@@ -8,7 +8,7 @@ A proposta foi construir o germe de um site que seria um museu virtual, visto qu
 
 ## Disponível em:
 
-[![alt text](https://raw.githubusercontent.com/andersonli34/escravidaonobrasil/master/img/logo.png "Logo Title Text 1")](https://andersonli34.github.io/escravidaonobrasil/)
+[![alt text](https://raw.githubusercontent.com/lima-anderson/escravidaonobrasil/master/img/logo.png "Logo Title Text 1")](https://lima-anderson.github.io/escravidaonobrasil/)
 
 
 ## Linguagens e Tecnologias:
