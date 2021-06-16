@@ -1,7 +1,7 @@
 ## Museu Virtual da Escravidão no Brasil
 
 
-Projeto da disciplina Linguagens de Marcação do 1º Período.
+
 
 A proposta foi construir o germe de um site que seria um museu virtual, visto que a criação e manutenção de um museu físico exige mais recursos materiais e humanos.
 
